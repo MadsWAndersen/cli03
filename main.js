@@ -1,4 +1,5 @@
-import { marked } from 'marked';
+import { marked } from "marked";
 
-document.getElementById('content').innerHTML =
-marked.parse('# Marked in the browser\n\nRendered by **marked**.');
+document.getElementById("preview").innerHTML = marked.parse(
+  "# Marked in the browser\n\nRendered by **marked**."
+);
